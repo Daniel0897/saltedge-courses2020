@@ -1,0 +1,3 @@
+Crontab homowork
+*/5 * * * * echo "Hello" >> /home/daniel/tmp/file7.txt > /dev/pts/0
+
