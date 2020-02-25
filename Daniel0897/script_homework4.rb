@@ -19,6 +19,8 @@ puts "Brand new bicycle".sub("bicycle", "")
 #"Brand new bicycle" - check if the sctring's last word is bicycle
 string = "Brand new bicycle"
 puts string.include?("bicycle")
+"Brand new bicycle".end_with?('bicycle')
+
 
 #"Brand new bicycle" - find out what index the letter "w" has
 puts "Brand new bicycle".index('w')
@@ -38,4 +40,7 @@ puts "The result is #{12.to_f%4.5.round(2)}"
 
 puts "28 - call modulo by 6, then multiply result by 4.7 and round it down"
 puts "The result is #{(28%6)*4.7.round(-1)}"
+
+
+
 
