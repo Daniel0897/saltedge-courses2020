@@ -5,7 +5,8 @@ c = b.zip(a)
 hash = puts c.to_h 
 
 puts long_name = names.max_by {|obj| obj.size }
-names.index(long_name)
+puts names.index(long_name)
+puts names.index [1839..-1]
 
 
 
